@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 22vh;
+    width: 100%;
+}
+.navbar #main-list {
+    list-style: none;
+    margin-left: 1120px;
+}
+.navbar #main-list li{
+    float: left;
+    padding: 8px;
+    
+}
+.navbar #main-list li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+#app-icon, #account-icon{
+    height: 20px;
+    width: 20px;
+}
+.main #google-icon{
+    height: 92px;
+    width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main #input-area{
+    background: white;
+    border-radius: 22px;
+    box-shadow: outset 0 1px 6px 0 rgba(32, 33, 36, .28);
+    height: 44px;
+    width: 561px;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+.main{
+    text-align: -webkit-center;
+}
+
+.main .in-button{
+    background-color: #f2f2f2;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.footer{
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    height: 80px;
+    margin-top: 122px;
+
+}
+.footer p{
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    font-size: 13px;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    height: 40px;
+    font-family: arial,sans-serif;
+}
+.footer span{
+    text-align: center;
+    padding-left: 15px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+.footer span a{
+    padding: 12px;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    line-height: 20px;
+}
+.footer #fll{
+    float: right;
+    margin-right: 20px;
+}
